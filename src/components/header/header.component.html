@@ -1,0 +1,21 @@
+<div
+  style="display: flex; flex-direction: row; width: 100% !important;max-height: 70px"
+>
+  <h1 style="font-weight: normal;">
+    <span style="font-weight: 600">Social</span>Network
+  </h1>
+  <form>
+    <mat-form-field>
+      <mat-label>Find</mat-label>
+      <input matInput />
+    </mat-form-field>
+  </form>
+  <button mat-raised-button primary>Find</button>
+  <div>
+    <img src="https://source.unsplash.org/random" />
+    <button mat-button>
+      {{ userData?.firstName }} <br />
+      {{ userData?.lastName }}
+    </button>
+  </div>
+</div>

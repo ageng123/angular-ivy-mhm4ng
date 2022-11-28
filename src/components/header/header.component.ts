@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
+  constructor() {}
   userData = {
     firstName: 'Waseem',
-    lastName: 'Ahmad',
+    lastName: 'Akhmad',
   };
-  constructor() {}
-
   ngOnInit() {}
 }
